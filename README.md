@@ -29,7 +29,7 @@ Each write-up has its own folder that contains:
 
 ## 📝 Writeups
 
-- [🎧 CTF Speaker](./ctf-speaker-writeup/README.md)  
+- [🎧 CTF Speaker](ctf-speaker-writeup/README.md)  
   *A Bluetooth forensics + audio/Morse code decoding challenge. Flag hidden inside a waveform spectrogram.*
 
 (More writeups will be added as I continue solving challenges!)
