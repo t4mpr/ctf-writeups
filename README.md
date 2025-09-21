@@ -13,7 +13,7 @@
 ---
 
 Welcome!  
-This repository is a collection of my **CTF (Capture The Flag) challenge write-ups**, where I document the process, tools, and techniques I used to solve different security puzzles.  
+This repository is a collection of my **CTF (Capture The Flag) challenge write-ups**, where I document the process, tools, and techniques I used to solve different security puzzles.
 
 The goal of this repo is to both **share knowledge** and **showcase my skills** in cybersecurity, reverse engineering, cryptography, and forensics.
 
