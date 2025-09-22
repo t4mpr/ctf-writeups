@@ -42,7 +42,13 @@ Example output for a Windows executable:
 >To solve this we take the base64 encoded blob and throw it in to [Cyberchef](https://gchq.github.io/CyberChef/) selecting `From Base64` and dragging it into the `Recipe` Section
 ![Can Powershell Plz](images/Can_Powershell_Plz_1.png)
 
+**On The Wire**
 
+![On The Wire](images/On_The_Wire.png)
+
+Opening the provided [.pcap file](files/creds.pcap) in Wireshark shows plaintext unencrypted credentials  
+
+![On The Wire 2](images/On_The_Wire_2.png)
 ---
 
 
