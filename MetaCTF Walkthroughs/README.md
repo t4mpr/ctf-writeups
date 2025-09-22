@@ -35,6 +35,11 @@ Example output for a Windows executable:
 ![Here I Come 1](images/Here_I_come_1.png)
 
 
+**Can PowerShell Please Join Us On the Stage?**
+
+![Can Powershell Plz](images/Can_Powershell_Plz.png)
+>To solve this we take the base64 encoded blob and throw it in to [Cyberchef](https://gchq.github.io/CyberChef/) selecting `From Base64` and dragging it into the `Recipe` Section
+![Can Powershell Plz](images/Can_Powershell_Plz_1.png)
 
 
 ---
