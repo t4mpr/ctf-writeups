@@ -18,7 +18,9 @@ Then, we unzip with `7z e magicinme.7z`
 ![Magic In Me 2](images/Magic_In_Me_2.png)
 open the file with `xdg-open flag.jpg`
 ![Magic In Me 3](images/Magic_In_Me_3.png)
+
 Retrieve the flag
+
 ![magic_in_me_flag](images/flag.jpg)
 
 **Forensics, Here I Come**
