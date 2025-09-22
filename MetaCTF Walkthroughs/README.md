@@ -14,9 +14,13 @@ by typing `file magicinme` into our termianl - we discover the file type without
 We then change add the correct extention to the file `mv magicinme magicinme.7z`
 
  ![Magic In Me 1](images/Magic_In_Me_1.png)
+
 Then, we unzip with `7z e magicinme.7z`
+
 ![Magic In Me 2](images/Magic_In_Me_2.png)
+
 open the file with `xdg-open flag.jpg`
+
 ![Magic In Me 3](images/Magic_In_Me_3.png)
 
 Retrieve the flag
@@ -41,7 +45,9 @@ Example output for a Windows executable:
 **Can PowerShell Please Join Us On the Stage?**
 
 ![Can Powershell Plz](images/Can_Powershell_Plz.png)
->To solve this we take the base64 encoded blob and throw it in to [Cyberchef](https://gchq.github.io/CyberChef/) selecting `From Base64` and dragging it into the `Recipe` Section
+
+To solve this we take the base64 encoded blob and throw it in to [Cyberchef](https://gchq.github.io/CyberChef/) selecting `From Base64` and dragging it into the `Recipe` Section
+
 ![Can Powershell Plz](images/Can_Powershell_Plz_1.png)
 
 **On The Wire**
