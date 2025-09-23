@@ -29,13 +29,14 @@ Each write-up has its own folder that contains:
 
 ## 📝 Writeups
 
-- [🕵🏻‍♀️ MetaCTF Walkthroughs (DFIR)](MetaCTF_Walkthroughs/README.md)  
-  *MetaCTF On Demand Labs Forensics Walkthroughs*
+- [🕵🏻‍♀️ MetaCTF Walkthroughs (DFIR)](MetaCTF-Walkthroughs/README.md)  
+  *MetaCTF On Demand Labs Forensics Walkthroughs* 
+   *`start here if you are new to digital forensics`*
 
-- [🎧 CTF Speaker / Misc](ctf-speaker-writeup/README.md)  
+- [🎧 CTF Speaker (Misc)](ctf-speaker-writeup/README.md)  
   *A Bluetooth forensics + audio/Morse code decoding challenge. Flag hidden inside a waveform spectrogram.*
 
-- [🗝️ Worsehelp / Crypto](worsehelp/README.md)  
+- [🗝️ Worsehelp (Cryptography)](worsehelp/README.md)  
   *An RSA cryptosystem challenge using Wiener's Attack*
 
 (More writeups will be added as I continue solving challenges!)
