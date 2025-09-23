@@ -27,6 +27,8 @@ Retrieve the flag
 
 ![magic_in_me_flag](images/flag.jpg)
 
+---
+
 **Forensics, Here I Come**
 
 ![Here I Come](images/Here_I_come_.png)
@@ -41,6 +43,7 @@ Breakdown of the command:
 Example output for a Windows executable:
 ![Here I Come 1](images/Here_I_come_1.png)
 
+---
 
 **Can PowerShell Please Join Us On the Stage?**
 
@@ -50,6 +53,9 @@ To solve this we take the base64 encoded blob and throw it in to [Cyberchef](htt
 
 ![Can Powershell Plz](images/Can_Powershell_Plz_1.png)
 
+---
+
+
 **On The Wire**
 
 ![On The Wire](images/On_The_Wire.png)
@@ -57,8 +63,18 @@ To solve this we take the base64 encoded blob and throw it in to [Cyberchef](htt
 Opening the provided [.pcap file](files/creds.pcap) in Wireshark shows plaintext unencrypted credentials  
 
 ![On The Wire 2](images/On_The_Wire_2.png)
+
 ---
 
+**Anonymoose**
+
+![Anonymoose](images/Anonymoose.png)
+
+Using exiftool we are able to view the metadata in the [provided .pdf](files/D34DM0053_Open_Letter_Mental_Health.pdf)
+
+![Anonymoose](images/Anonymoose_1.png)
+
+---
 
 See you next time!
 
