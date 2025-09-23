@@ -75,6 +75,26 @@ Using exiftool we are able to view the metadata in the [provided .pdf](files/D34
 ![Anonymoose](images/Anonymoose_1.png)
 
 ---
+**runCAPTCHA**
+
+![runCAPTCHA](images/runCAPTCHA.png)
+
+Visiting the provided [URL](https://metaproblems.com/3bd33118c7a7faa98c23c76ea8aa782e/) - Right click > Inspect brings up Google Chrome's Developer Tools
+
+We find a function that looks suspicious
+![runCAPTCHA](images/runCAPTCHA_2.png)
+
+From here we take this Base64 blob and bring it in to [Cyberchef](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true,false)Decode_text('UTF-16LE%20(1200)')&input=YlFCekFHZ0FkQUJoQUNBQWFBQjBBSFFBY0FBNkFDOEFMd0J1QUc4QWJnQnRBR0VBYkFCcEFHTUFhUUJ2QUhVQWN3QmpBR0VBY0FCMEFHTUFhQUJoQUM0QWJRQmxBSFFBWVFCd0FISUFid0JpQUd3QVpRQnRBSE1BTGdCakFHOEFiUUF2QUUwQVpRQjBBR0VBUXdCVUFFWUFld0JHQURRQWF3QXpBRjhBWXdBMEFIQUFWQUJqQUdnQVFBQnpBRjhBY2dCMUFFNEFYd0J0QURRQWJBQjNBRFFBY2dBekFIMEE&oenc=65001) Using the `From Base64` and `Becode Text UTF-16LE (1200)` given that this looks to be Base64 encoded and we see this `powershell.exe -eC` 
+
+In PowerShell, the flag -eC (or -EncodedCommand) tells PowerShell to expect the following argument as a Base64-encoded string that represents the script/command to run.
+
+> "Becode Text UTF-16LE (1200)" refers to the process of decoding or interpreting text that has been encoded using the UTF-16 Little Endian (LE) character encoding, specifically using code page ID 1200, which is commonly associated with UTF-16LE in Microsoft environments like .NET and PowerShell."
+
+From here we find the malicious URL and our flag
+
+![runCAPTCHA](images/runCAPTCHA_3.png)
+
+---
 
 See you next time!
 
