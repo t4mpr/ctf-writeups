@@ -1,8 +1,8 @@
-# MetaCTF — Walkthroughs
+# MetaCTF — Forensics Walkthroughs
 
-## Challenges
 
-**I've Got The Magic**
+
+## I've Got The Magic
 
 
 ![Magic In Me ](images/Magic_In_Me.png)
@@ -27,9 +27,9 @@ Retrieve the flag
 
 ![magic_in_me_flag](images/flag.jpg)
 
----
 
-**Forensics, Here I Come**
+
+## Forensics, Here I Come
 
 ![Here I Come](images/Here_I_come_.png)
 
@@ -43,9 +43,9 @@ Breakdown of the command:
 Example output for a Windows executable:
 ![Here I Come 1](images/Here_I_come_1.png)
 
----
 
-**Can PowerShell Please Join Us On the Stage?**
+
+## Can PowerShell Please Join Us On the Stage?
 
 ![Can Powershell Plz](images/Can_Powershell_Plz.png)
 
@@ -53,10 +53,10 @@ To solve this we take the base64 encoded blob and throw it in to [Cyberchef](htt
 
 ![Can Powershell Plz](images/Can_Powershell_Plz_1.png)
 
----
 
 
-**On The Wire**
+
+## On The Wire
 
 ![On The Wire](images/On_The_Wire.png)
 
@@ -64,9 +64,9 @@ Opening the provided [.pcap file](files/creds.pcap) in Wireshark shows plaintext
 
 ![On The Wire 2](images/On_The_Wire_2.png)
 
----
 
-**Anonymoose**
+
+## Anonymoose
 
 ![Anonymoose](images/Anonymoose.png)
 
@@ -74,8 +74,8 @@ Using exiftool we are able to view the metadata in the [provided .pdf](files/D34
 
 ![Anonymoose](images/Anonymoose_1.png)
 
----
-**runCAPTCHA**
+
+## runCAPTCHA
 
 ![runCAPTCHA](images/runCAPTCHA.png)
 
@@ -94,7 +94,17 @@ From here we find the malicious URL and our flag
 
 ![runCAPTCHA](images/runCAPTCHA_3.png)
 
----
+
+
+## Browser, Wowser
+![browser](images/Browser_Wowser.png)
+
+Knowing what we are looking for  `"MetaCTF"`  If we wanted to find the flag with  minimal effort we could just run
+`strings places.sqlite | grep MetaCTF{`
+
+![browser](images/Browser_Wowser_2.png)
+
+
 
 See you next time!
 
