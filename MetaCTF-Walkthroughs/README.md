@@ -104,6 +104,31 @@ Knowing what we are looking for  `"MetaCTF"`  If we wanted to find the flag with
 
 ![browser](images/Browser_Wowser_2.png)
 
+## Spam to Ham
+![spam](images/spam_to_ham_chal.png)
+
+This challenge gives us an [email](files/spam_not_ham.txt) that was intercepted that has some base64 encoded contents. If we inspect the file we see that the message contains a clue `I've attached an image in this email` 
+![spam](images/spam_to_ham_email.png) 
+
+Taking the very large base64 encoded blob and putting it into Cyberchef gives us a hint.
+
+![spam](images/spam_to_ham_cyberchef.png)
+
+This is likely a PNG file!
+
+
+copy the base64 into a file named flag.64
+![spam](images/spam_not_ham_1.png)
+![spam](images/spam_not_ham_2.png)
+
+I use `file` to check that the file type is in fact PNG image data,then `base64 -d flag.64 > flag_64.png` to turn the base64 into a .png and open the image 
+![spam](images/spam_not_ham_3.png)
+
+Because I am using WSL Ubuntu, I just use `explorer.exe` to open the file. 
+
+![spam](images/spam_not_ham.png)
+
+
 
 
 See you next time!
