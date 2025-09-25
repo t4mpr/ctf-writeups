@@ -128,6 +128,40 @@ Because I am using WSL Ubuntu, I just use `explorer.exe` to open the file.
 
 ![spam](images/spam_not_ham.png)
 
+## Remote Data Pwnage
+![rdp](images/remote_data_pwnage_chal.png)
+
+>"A malicious actor compromised a machine on our network and used it as a proxy to perform other attacks and connect to other machines. Our IR team managed to recover a partial file system dump of that machine. Take a look at [Users.zip](https://range.metaproblems.com/739c7a4b6b9d8d9281bb3a4c964e68ca/Users.zip) and see if you can reconstruct anything useful."
+
+Looking in C:\Administrator\AppData\Local\Microsoft\Terminal Server Client\Cache\ we find a .bin file
+![rdp](images/remote_data_pwnage_1.png)
+
+We can use [bmc-tools.py](https://github.com/ANSSI-FR/bmc-tools/blob/master/bmc-tools.py) to extract thousands of image fragments to try to get some clues on what was shown on the scren during the RDP session
+
+![rdp](images/remote_data_pwnage_2.png)
+
+The entire collage looks like this.
+
+![rdp](images/remote_data_pwnage_3.bmp)
+
+Very difficult to try to figure out what is going on here.
+
+For this, we use yet another incredible tool - [RdpCacheStitcher](https://github.com/BSI-Bund/RdpCacheStitcher)
+
+This can be quite time consuming to piece together all of these individual frames to get a full picture.  Here is a screen-shot of this [RdpCacheStitcher](https://github.com/BSI-Bund/RdpCacheStitcher) for context
+
+![rdp](images/remote_data_pwnage_4.png)
+
+From here we can take frames and try to piece them together manually.  This is like putting together pieces of a puzzle but for digital forensics
+
+From here I was able to recover the first flag
+
+![rdp](images/remote_data_pwnage_solve_PNG.png) 
+
+
+
+
+
 
 
 
