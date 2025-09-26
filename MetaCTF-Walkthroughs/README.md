@@ -154,7 +154,7 @@ This can be quite time consuming to piece together all of these individual frame
 
 From here we can take frames and try to piece them together manually.  This is like putting together pieces of a puzzle but for digital forensics
 
-From here I was able to recover the first flag
+There's our flag.
 
 ![rdp](images/remote_data_pwnage_solve_PNG.png) 
 
