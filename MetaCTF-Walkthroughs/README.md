@@ -144,6 +144,22 @@ File provided [capture.pcap](https://metaproblems.com/f49d7959f3020161d64106e26b
 
 There's our flag! [REDACTED]
 
+## Corruption
+![corruption](images/corruption_chal.png)
+>"Oh no! I tried downloading a picture for my upcoming conference talk but it won't open! Can you see if you can fix it and open it?
+You can download it here: [corrupted.png](https://metaproblems.com/527ede842470736a9428b5bc311cc651/corrupted.png)"
+Use file to identify file type (if any)
+![corruption](images/corruption_1.png)
+looks like a PDF.  I know a tool for that! `pdfimages`!
+
+I used `pdfimages -list corrupted.png` to identify if there are in fact any images in this corrupted file, there are!
+
+Then  `mkdir -p recovered/pdfimages && pdfimages -all corrupted.png recovered/pdfimages/img` to extract out and retrieve
+
+![corruption](images/corruption_2.png)
+Opening the recovered PNG we now recover our flag.
+![corruption](images/Corruption_solve.png)
+
 
 ## Remote Data Pwnage
 ![rdp](images/remote_data_pwnage_chal.png)
