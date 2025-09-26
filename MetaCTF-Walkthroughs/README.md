@@ -117,16 +117,33 @@ Taking the very large base64 encoded blob and putting it into Cyberchef gives us
 This is likely a PNG file!
 
 
-copy the base64 into a file named flag.64
+copy the base64 into a file named `flag.64`
+
 ![spam](images/spam_not_ham_1.png)
+
 ![spam](images/spam_not_ham_2.png)
 
-I use `file` to check that the file type is in fact PNG image data,then `base64 -d flag.64 > flag_64.png` to turn the base64 into a .png and open the image 
+ `base64 -d flag.64 > flag_64.png` to turn the base64 into a .png
+ then -  I use `file b64.png` to check that the file type is in fact PNG image data,then and open the image 
 ![spam](images/spam_not_ham_3.png)
 
 Because I am using WSL Ubuntu, I just use `explorer.exe` to open the file. 
 
 ![spam](images/spam_not_ham.png)
+
+## Flags Over The Wire
+![flags_over_the_wire](images/flags_over_the_wire_chal.png)
+File provided [capture.pcap](https://metaproblems.com/f49d7959f3020161d64106e26bdf0f2e/flagsoverwire/capture.pcap) 
+
+- In the menu: File → Export Objects → FTP-DATA...
+![flags_over_the_wire](images/flags_over_the_wire_1.png)
+- In the dialog that opens you see flags.zip listed. Select it and click Save…
+![flags_over_the_wire](images/flags_over_the_wire_2.png)
+- Save flags.zip to your disk and open it with your unzipper.  Inside we find a flags.png file
+![flags_over_the_wire](images/flags_over_the_wire_3.png)
+
+There's our flag! [REDACTED]
+
 
 ## Remote Data Pwnage
 ![rdp](images/remote_data_pwnage_chal.png)
@@ -148,7 +165,7 @@ Very difficult to try to figure out what is going on here.
 
 For this, we use yet another incredible tool - [RdpCacheStitcher](https://github.com/BSI-Bund/RdpCacheStitcher)
 
-This can be quite time consuming to piece together all of these individual frames to get a full picture.  Here is a screen-shot of this [RdpCacheStitcher](https://github.com/BSI-Bund/RdpCacheStitcher) for context
+This can be quite time consuming to piece together all of these individual frames to get a full picture.  Here is a screen-shot of this [RdpCacheStitcher](https://github.com/BSI-Bund/RdpCacheStitcher) session for context
 
 ![rdp](images/remote_data_pwnage_4.png)
 
