@@ -160,6 +160,20 @@ Then  `mkdir -p recovered/pdfimages && pdfimages -all corrupted.png recovered/pd
 Opening the recovered PNG we now recover our flag.
 ![corruption](images/Corruption_solve.png)
 
+## All Your Files are Mine
+![all_your_files](images/all_your_files_chal.png)
+
+I use `file abc.xyz` to identify the file type
+![all_your_files](images/all_your_files_1.png)
+
+it's a zip file now I use `mv abc.xyz abc.xyz.zip` to make it a .zip 
+
+Extract using 7zip and explore...
+
+![all_your_files](images/all_your_files_2.png)
+
+open evil_plan.txt and there's our flag.
+![all_your_files](images/all_your_files_solve.png)
 
 ## Remote Data Pwnage
 ![rdp](images/remote_data_pwnage_chal.png)
