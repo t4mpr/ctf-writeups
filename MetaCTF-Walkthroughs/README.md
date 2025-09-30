@@ -176,7 +176,30 @@ Extract using 7zip and explore...
 open evil_plan.txt and there's our flag.
 ![all_your_files](images/all_your_files_solve.png)
 
-## Remote Data Pwnage
+## Top Secret ##
+![top_secret](images/top_secret_chal.png)
+>"The folks at NSA got too tired of having to physically print out and redact documents, so they decided to try a new digital tool. Check out how good it is at doing its job on this [redacted document.](https://metaproblems.com/3de8cb5f491fd3b1fae98baabb4e6a5d/Nuclear_Codes_REDACTED.pdf)"
+
+![top_secret](images/top_secret_1.png)
+
+The PDF only overlays black rectangles in its content stream; the underlying JPEG still contains the unredacted text, so direct image extraction bypasses the redaction.
+
+`pdfimages -all Nuclear_Codes_REDACTED.pdf img`
+![top_secret](images/top_secret_2.png)
+
+`tesseract img-000.jpg stdout` to find it manually in your CLI 
+Nuclear_Codes_REDACTED.pdf img`
+![top_secret](images/top_secret_3.png)
+
+or just open the jpg manually
+
+
+![top_secret](images/top_secret_solve.png)
+
+
+
+
+## Remote Data Pwnage 2 (Part 1)
 ![rdp](images/remote_data_pwnage_chal.png)
 
 >"A malicious actor compromised a machine on our network and used it as a proxy to perform other attacks and connect to other machines. Our IR team managed to recover a partial file system dump of that machine. Take a look at [Users.zip](https://range.metaproblems.com/739c7a4b6b9d8d9281bb3a4c964e68ca/Users.zip) and see if you can reconstruct anything useful."
