@@ -1,0 +1,16 @@
+Message:
+Client submit time:			Sep 06, 2025 15:24:41.000000000 UTC
+Delivery time:				Sep 06, 2025 15:24:45.606098400 UTC
+Creation time:				Sep 06, 2025 15:24:45.326081500 UTC
+Size:					133509
+Flags:					0x00000013 (Read, Unmodified, Has attachments)
+Conversation topic:			Q2 2025 Financial Data – Immediate Review Required
+Subject:				Q2 2025 Financial Data – Immediate Review Required
+Sender name:				Jonathan Miller
+Sender email address:			outlook_40C49CAF734ADF68@outlook.com
+Sent representing name:			Jonathan Miller
+Sent representing email address:	outlook_40C49CAF734ADF68@outlook.com
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+
