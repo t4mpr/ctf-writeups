@@ -106,7 +106,7 @@ Suspicious activity on an employee workstation was linked to a phishing email th
     Suspicious activity was detected on an employee workstation following the execution of anomalous processes and the generation of unexpected outbound network traffic. Initial forensic triage indicates that the compromise likely originated from a phishing-based email vector, resulting in the delivery and execution of a malicious stager/loader.
     
 
-[Download Link](Masks/memdump.mem)
+[Download Link](https://cybersharing.net/s/21d942e75b645fdc)
 
 `nc 161.97.155.116 5858`
 
