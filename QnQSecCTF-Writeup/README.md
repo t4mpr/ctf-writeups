@@ -228,7 +228,8 @@ Questions 1-3
 ## 5. Final Answer & flag retrieval  
 I made a helper python script to autofill questions 1-7 to save time, rather than pasting every answer in manually. ` python3 submit_progress.py` to feed the first 7 answers and answer Question #8 manually to retrieve the flag
 
-![masks_pwned](Masks/masks_pwned.png)
+
+![Masks_pwned](Masks/Masks_pwned.png)
 
 `
 QnQSec(Ema1l_2_5h3ll_V1A_Ph15h1nG:FDCCD1C}
@@ -239,3 +240,6 @@ QnQSec(Ema1l_2_5h3ll_V1A_Ph15h1nG:FDCCD1C}
 
 
 
+
+
+[def]: Masks_pwned.png
