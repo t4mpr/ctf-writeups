@@ -1,0 +1,9 @@
+# Large memory dumps
+*.mem
+*.dmp
+*.dump
+*.raw
+
+# OS/editor files
+.DS_Store
+Thumbs.db
