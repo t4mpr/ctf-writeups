@@ -1,7 +1,7 @@
 # Echo Chamber - DEADFACE CTF 2025
 
 ## Challenge Description
-<img src="images/echo_chamber.png" alt="creepy resume" width="200"/> 
+<img src="https://github.com/t4mpr/ctf-writeups/blob/main/deadfaceCTF-2025-Writeups/PWN/images/Echo_Chamber.png?raw=true" alt="echo chamber" width="200"/> 
 
 >DEADFACE loves their vintage tech, but their "Echo Chamber" chat bot has a critical flaw from the old days. It echoes messages without sanitizing input, potentially leaking sensitive data. As a Turbo Tactical operative, connect to the remote service at echochamber.deadface.io:13337 and exploit it to reveal a hidden flag.
 >>Submit the flag as deadface{flag_text}.
