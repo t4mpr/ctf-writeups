@@ -3,7 +3,7 @@
 **Category:** `OSINT`
 
 ## Challenge Description
-<img src="images/DISS_TRACK.png" alt="Dis-connec-ted" width="200"/> 
+<img src="https://github.com/t4mpr/ctf-writeups/blob/main/deadfaceCTF-2025-Writeups/OSINT/images/Diss_Track.png?raw=true" alt="Dis-connec-ted" width="200"/> 
 
 >We where looking at the message board and saw that lilith and deephax communicated that they would have a secret way of talking to each other while they ran an attack. We cant make heads or tales of it but we did note that they mentioned Band names and referenced some songs.
 >>Enter the answer as deadface{flag text}.
