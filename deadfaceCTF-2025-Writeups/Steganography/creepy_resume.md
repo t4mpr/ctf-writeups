@@ -4,7 +4,7 @@
 
 
 ## Challenge Description
-![Creepy Resume](images/creepy_resume.png)
+<img src="https://github.com/t4mpr/ctf-writeups/blob/main/deadfaceCTF-2025-Writeups/Steganography/images/Creepy_Resume.png?raw=true" alt="creepy resume" width="200"/> 
 
 >A DEADFACE member landed an interview at Spooky Coffee using a resume that whispers in Unicode and charms every AI it touches. Those who can read between the glyphs say it speaks in riddles, crafted to bypass filters and impress any CAPTCHA-checking HR daemon.
 >>Analyze the resume PDF. Can you find the secret string?
