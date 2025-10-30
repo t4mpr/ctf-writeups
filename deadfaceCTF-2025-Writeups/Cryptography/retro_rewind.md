@@ -6,7 +6,7 @@
 
 ## Challenge Description
 
-<img src="images/retro_rewind.png" alt="retro rewind" width="250"/> 
+![dis-connec-ted](images/Dis-connec-ted.png)
 
 
 > DEADFACE loves their retro gimmicks. One of our agents stumbled upon this odd log shared by DEADFACE members. The log includes a timestamp, an Initialization Vector (IV), as well as the encrypted message. When we reviewed similar logs, we found that one key worked for one message, but not for the rest. Something must be different with the key used to encrypt each of these messages. We suspect there is a base key that changes with each message. Can you figure it out?

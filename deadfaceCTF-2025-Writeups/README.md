@@ -1,4 +1,4 @@
-# DDEADFACE CTF 2025 - Writeups
+# DEADFACE CTF 2025 - Writeups
 
 This repository contains comprehensive writeups for all challenges I solved during the deadface CTF competition held in October 2025.
 
