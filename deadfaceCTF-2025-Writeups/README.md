@@ -41,7 +41,6 @@ This repository contains comprehensive writeups for all challenges I solved duri
 | Challenge | Points | Difficulty | Writeup |
 |-----------|--------|------------|---------|
 | Undervalued | 400 | Hard | [writeup](EpicSales/undervalued.md) |
-|
 
 **Skills:** SQL aggregation, JOIN operations, complex queries, data analysis
 
