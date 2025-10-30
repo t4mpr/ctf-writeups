@@ -4,7 +4,7 @@
 
 
 ## Challenge Description
-<img src="images/creepy_resume.png" alt="creepy resume" width="200"/> 
+![Creepy Resume](images/creepy_resume.png)
 
 >A DEADFACE member landed an interview at Spooky Coffee using a resume that whispers in Unicode and charms every AI it touches. Those who can read between the glyphs say it speaks in riddles, crafted to bypass filters and impress any CAPTCHA-checking HR daemon.
 >>Analyze the resume PDF. Can you find the secret string?
