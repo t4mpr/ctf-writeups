@@ -1,0 +1,63 @@
+# Intercepted DEADFACE Communications
+# Format: Timestamp (Unix Epoch), IV (hex), Ciphertext (hex)
+
+Message 1:
+Timestamp: 1756684800
+IV: cb397a9c2aab5cda6215534a1f011a59
+Ciphertext: 31fac316e82628702803e71b1339741c908a99b15d5fa2fb5274bcf6faa3d403
+
+Message 2:
+Timestamp: 1756728000
+IV: d1c84e4f043b922280d9f347d60a26ba
+Ciphertext: 92e992ae0961dc6107619ee31cc96fb1db917e9ddfb5a600a9dabe68717f77c4
+
+Message 3:
+Timestamp: 1756771200
+IV: 0a4d3db6b0970628645147d9f664e57e
+Ciphertext: 7f012fce0a5dd832bbe4376063f699c2
+
+Message 4:
+Timestamp: 1756814400
+IV: 7c6dfb67eb713dc3666784a523bdb7ff
+Ciphertext: 358046002d83377724cde7df7ee57b60
+
+Message 5:
+Timestamp: 1756857600
+IV: 8f4db73d8a498b11e5e7558320ad6d86
+Ciphertext: 36bc8ac76ae0c60d872cafe882e8ceba
+
+Message 6:
+Timestamp: 1756900800
+IV: 270050fd530f64081b2ed48cf6c70f8f
+Ciphertext: b26c78de104d548ac806e90b5c89a720
+
+Message 7:
+Timestamp: 1756944000
+IV: a1933fb5376099e4028880147e55617b
+Ciphertext: ad8c9e16c03e35875e45f86ff77fc853
+
+Message 8:
+Timestamp: 1756987200
+IV: 04039b52e274eefb9ec51a9cb58a38b3
+Ciphertext: a882405a107c7e7f7bdbd71742cf58af
+
+Message 9:
+Timestamp: 1757030400
+IV: 1bf228cc6d2f3efd6a04758e51042f24
+Ciphertext: ec18a777a645d1a6bd6c86142b8811cc
+
+Message 10:
+Timestamp: 1757073600
+IV: e89d19b3b41499b4aa90f98fc97b8434
+Ciphertext: 112c7892d8cb635a09a1d54becc9efd8
+
+Message 11:
+Timestamp: 1757116800
+IV: b4da933b26aa225a2098f7c65a33974c
+Ciphertext: 1eef118d435fb37b5e20dd67c05ee8b8
+
+Message 12:
+Timestamp: 1757160000
+IV: 9e0feeebc1f76d897cd666e471725bf1
+Ciphertext: 2a4a5d3cdaaf41e82819869c0c1a221946d226cf453c34c9246418909a552757
+

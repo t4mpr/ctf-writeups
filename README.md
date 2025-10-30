@@ -29,6 +29,9 @@ Each write-up has its own folder that contains:
 
 ## 📝 Writeups
 
+-  [💀 deadfaceCTF 2025](deadfaceCTF-2025-Writeups/README.md)  
+  *deadfaceCTF 2025 Writeups*  `   CRYPTO | WEB | SQL | LINUX | STEG | OSINT  `
+   
 - [🕵🏻‍♀️ QnQSecCTF  (DFIR)](QnQSecCTF-Writeup/README.md)  
   *Masks Incident Response Report + Forensics CTF Writeup* 
    *`CVE-2025-8088 Updated 10/22/2025`*
@@ -61,7 +64,7 @@ This repo serves as:
 - A **portfolio** of my cybersecurity and problem-solving skills  
 - A way to **give back to the community** by sharing methodologies and insights  
 
-If you’re also into CTFs or want to collaborate, feel free to reach out! 
+If you have any questions, feel free to reach out! 
 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/smosillo)

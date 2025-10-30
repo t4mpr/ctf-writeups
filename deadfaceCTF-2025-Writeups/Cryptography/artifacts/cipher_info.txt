@@ -1,0 +1,3 @@
+Cipher Information:
+Encryption: AES-128-CBC
+Note: The encryption key changes with time. Analyze the timestamps to uncover the pattern!
