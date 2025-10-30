@@ -1,7 +1,8 @@
 # Pulse Check - DEADFACE CTF 2025
 **Category:** `FORENSICS` `LINUX`
 ## Challenge Description
-<img src="images/Pulse_check.png" alt="Read_em_and_weap" width="250"/>
+
+![Pulse Check](images/Pulse_Check.png)
 
 > What is this machine doing? Our team has looked in various files and we can’t seem to locate the 7th flag. Maybe we need to characterize this host more. 
 >>Submit the flag as deadface{flag_text}.
