@@ -81,7 +81,7 @@ I'm pretty surwe that the intended solve here was to review the info and links f
 - ```exiftool lambiresume.pdf```
 - Copy `🥰󠅔󠅕󠅑󠅔󠅖󠅑󠅓󠅕󠅫󠄼󠅟󠅟󠅛󠅏󠄰󠅏󠅝󠄣󠄑󠄑󠄑󠅭`
 - Paste in https://emoji.paulbutler.org/?mode=decode
-<img src="https://github.com/t4mpr/ctf-writeups/blob/main/deadfaceCTF-2025-Writeups/Steganography/images/creepy_resume_intended_solve.png?raw=true" alt="creepy resume" width="200"/>
+<img src="https://github.com/t4mpr/ctf-writeups/blob/main/deadfaceCTF-2025-Writeups/Steganography/images/creepy_resume_intended_solve_1.png?raw=true" alt="creepy resume" width="200"/>
 
 
 ## Notes
