@@ -30,7 +30,7 @@ Each write-up has its own folder that contains:
 ## 📝 Writeups
 
 -  [💀 deadfaceCTF 2025](deadfaceCTF-2025-Writeups/README.md)  
-  *deadfaceCTF 2025 Writeups*  `   CRYPTO | WEB | SQL | LINUX | STEG | OSINT  `
+  *deadfaceCTF 2025 Writeups*  `  CRYPTO | WEB | SQL | LINUX | STEG | OSINT  `
    
 - [🕵🏻‍♀️ QnQSecCTF  (DFIR)](QnQSecCTF-Writeup/README.md)  
   *Masks Incident Response Report + Forensics CTF Writeup* 
