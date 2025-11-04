@@ -33,7 +33,7 @@ Each write-up has its own folder that contains:
   *deadfaceCTF 2025 Writeups*  `  CRYPTO | WEB | SQL | LINUX | STEG | OSINT  `
 
 
- - 💾 [Lost in RAMslation - TryHackMe Walkthrough](TryHackMe-Walkthroughs\Lost_in_RAMslation/Lost_in_RAMslation.md) 
+ - 💾 [Lost in RAMslation - TryHackMe Walkthrough](TryHackMe-Walkthroughs/Lost_in_RAMslation.md) 
     *"I just need one solid answer, not ten theories" - the project manager complained.* 
     `AWS | Active Directory | DFIR | MEMORY ANALYSIS` 
   
