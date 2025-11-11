@@ -65,7 +65,7 @@ Load the .mp3 into your DAW *(Digital Audio Workstation)* of choice...
  > In  Ableton Grid view, a 1/4 of a bar is shown by zooming in. Notice the two different shades of grey.  If you're not familiar with Ableton, just think of one of those grey blocks as one quarter of a bar.
 
 ![Bugle_Ableton](images/Bugle_Ableton_2nd.png)
-- ###### Notes that play for 1/4 of a bar represents a `-`  
+- ##### Notes that play for 1/4 of a bar represents a `-`  
  
 - ##### Notes that play for an 8th of a bar represent a `.` 
 
@@ -80,6 +80,7 @@ You can then use [CyberChef](https://gchq.github.io/CyberChef/#recipe=From_Morse
 
 
 ## Visual Representation
+
 
 ![Bugle](images/Bugle%20First%20Notes_MOR.png)
 ![Bugle_2](images/Bugle_Middle_Notes_SEAL.png)
@@ -101,7 +102,7 @@ But *"How?"* You may ask...
 
 #### Visual Representation of Bugle.mp3 decoded using [musitools.xyz/musigram](https://musitools.xyz/musigram/)
 
-♪~ ᕕ(ᐛ)ᕗ![Bugle](images/Bugle_Musicgram_Drawn_w_Letters.png)
+###### ♪~ ᕕ(ᐛ)ᕗ![Bugle](images/Bugle_Musicgram_Drawn_w_Letters.png)
 
 
 
