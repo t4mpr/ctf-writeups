@@ -22,7 +22,7 @@ The goal of this repo is to both **share knowledge** and **showcase my skills** 
 ## 📂 Repository Structure
 
 Each write-up has its own folder that contains:
-- A `README.md` write-up in detailed Markdown format  
+- A `README.MD` or `CHALLENGE_NAME.MD` write-up in detailed Markdown format 
 - Any supporting files (challenge files, scripts, screenshots, etc.)  
 
 ---
@@ -31,6 +31,9 @@ Each write-up has its own folder that contains:
 
 -  [💀 deadfaceCTF 2025](deadfaceCTF-2025-Writeups/README.md)  
   *deadfaceCTF 2025 Writeups*  `  CRYPTO | WEB | SQL | LINUX | STEG | OSINT  `
+
+  -  [💀 BuckeyeCTF 2025 -  Walkthroughs](BuckeyeCTF-2025-Writeups/Bugle.md)  
+  *BuckeyeCTF 2025 Bugle Forensics Walkthrough*  `  FORENSICS | STEG    `
 
 
  - 💾 [Lost in RAMslation - TryHackMe Walkthrough](TryHackMe-Walkthroughs/Lost_in_RAMslation.md) 

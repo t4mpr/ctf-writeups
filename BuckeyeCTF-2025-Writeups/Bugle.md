@@ -109,24 +109,24 @@ But *"How?"* You may ask...
 
 Flag - `bctf{MORSEALLALONG}`
 
--Shout out to the [Buckeye CTF](https://pwnoh.io/) Staff for putting on a great event
+- Shout out to the [Buckeye CTF](https://pwnoh.io/) Staff for putting on a great event
 
--And of course my team, [L3ak](https://l3ak.team/) for coming in 1st place in the Open Division
+- And of course my team, [L3ak](https://l3ak.team/) for coming in 1st place in the Open Division ![L3ak](images/L3ak.png)
 
-![L3ak](images/L3ak.png)
-### Helpful Morse Code Resources
+
+
+##### *If you enjoyed this walkthrough.  Please give this repo a ⭐ and follow my GitHub for more*
+###### Feel free to DM me on Discord or LinkedIn if you have any questions.
+
+ [![Discord](https://img.shields.io/badge/Discord-t4mpr-blue?logo=discord&style=for-the-badge)](https://discordapp.com/users/780642255508865044)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/smosillo)
+
+## Helpful Morse Code Resources
 
 - [musitools.xyz/musigram](https://musitools.xyz/musigram/)
 
 - [https://morsecode.world/](https://morsecode.world/)
 - [Cyber Chef](https://gchq.github.io/CyberChef/#recipe=From_Morse_Code('Space','Line%20feed')&input=LS0gLS0tIC4tLiAuLi4gLiAuLSAuLS4uIC4tLi4gLi0gLi0uLiAtLS0gLS4gLS0u&ieol=CRLF)
-
-
-> *If you enjoyed this walkthrough.  Please give this repo a ⭐ and follow my GitHub for more*
->>Feel free to DM me on Discord or LinkedIn if you have any questions.
-
- [![Discord](https://img.shields.io/badge/Discord-t4mpr-blue?logo=discord&style=for-the-badge)](https://discordapp.com/users/780642255508865044)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/smosillo)
 
 
 
