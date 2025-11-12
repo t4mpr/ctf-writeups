@@ -45,11 +45,9 @@ Load the .mp3 into your DAW *(Digital Audio Workstation)* of choice...
 - For this example, I use **Ableton 12**
 
 ![Bugle-Ableton](images/Bugle_Ableton_1st.png)
-
+##### Let's organize these notes by color and time & remove the negative space.
+![Bugle](images/Bugle_Chopped_2.png)
 ##### ...Now do you see it?
-
- ![Bugle](images/Bugle_Chopped_2.png)
-
 ﴾͡๏̯͡๏﴿ 
 ![Bugle-Ableton](images/Bugle_Ableton_1.png)
 
