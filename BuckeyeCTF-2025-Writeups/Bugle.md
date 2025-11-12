@@ -69,7 +69,7 @@ Load the .mp3 into your DAW *(Digital Audio Workstation)* of choice...
 
 
 
-![Bugle_Ableton](images/Bugle_color_chop.png)
+![Bugle_Ableton](images/Bugle_Color_Chop.png)
 - ##### <span style="color:#A370FF">Notes</span> that play for <span style="color:#A370FF">1/4 of a bar</span> represents a `-`  
  
 - ##### <span style="color:#39FF14">Notes</span> that play for <span style="color:#39FF14">1/8 of a bar</span> represent a `.` 
