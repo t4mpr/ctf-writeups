@@ -25,8 +25,6 @@ We can start by simply listening to and viewing the audio in any DAW or audio vi
 
 <img src="https://github.com/t4mpr/ctf-writeups/blob/main/BuckeyeCTF-2025-Writeups/images/Bugle_Sonic_1.png?raw=true" alt="BuckeyeCTF" width="70%"/>
 
-
-
 Hmmm...Nothing too obvious here.  However, we do see some clean breaks in-between notes.  This could be an indicator that this may be morse code.  
 
 > ##### When analyzing Morse Code, we need SOMETHING in between `-` and `.` - A space, a consistent break.  Something to tell us where to separate each character.
@@ -47,11 +45,9 @@ Load the .mp3 into your DAW *(Digital Audio Workstation)* of choice...
 - For this example, I use **Ableton 12**
 
 ![Bugle-Ableton](images/Bugle_Ableton_1st.png)
-
+##### Let's organize these notes by color and time & remove the negative space.
+![Bugle](images/Bugle_Chopped_2.png)
 ##### ...Now do you see it?
-
- ![Bugle](images/Bugle_Chopped_2.png)
-
 ﴾͡๏̯͡๏﴿ 
 ![Bugle-Ableton](images/Bugle_Ableton_1.png)
 
@@ -65,12 +61,9 @@ Load the .mp3 into your DAW *(Digital Audio Workstation)* of choice...
 
 
 
- > In  Ableton Grid view, a 1/4 of a bar is shown by zooming in. Notice the two different shades of grey.  If you're not familiar with Ableton, just think of one of those grey blocks as one quarter of a bar.
+ > In  Ableton Grid view, a 1/4 of a bar is shown by zooming in. Notice the two different shades of grey and the amount of space(time) a green clip takes up compared to a green clip.  If you're not familiar with Ableton, just think of one of those grey blocks as one quarter of a bar.
 
-
-
-
-
+##### I think we got it! 
 ![Bugle_Ableton](https://github.com/t4mpr/ctf-writeups/blob/main/BuckeyeCTF-2025-Writeups/images/Bugle_Color_Chop.png?raw=true)
 - ##### <span style="color:#A370FF">Notes</span> that play for <span style="color:#A370FF">1/4 of a bar</span> represents a `-`  
  
@@ -138,6 +131,3 @@ Flag - `bctf{MORSEALLALONG}`
 
 - [https://morsecode.world/](https://morsecode.world/)
 - [Cyber Chef](https://gchq.github.io/CyberChef/#recipe=From_Morse_Code('Space','Line%20feed')&input=LS0gLS0tIC4tLiAuLi4gLiAuLSAuLS4uIC4tLi4gLi0gLi0uLiAtLS0gLS4gLS0u&ieol=CRLF)
-
-
-
