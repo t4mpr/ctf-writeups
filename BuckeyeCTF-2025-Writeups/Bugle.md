@@ -23,7 +23,7 @@ We can start by simply listening to and viewing the audio in any DAW or audio vi
 
 - Let's start with Sonic Visualizer
 
-![sonic](images/Bugle_Sonic.png)
+![sonic](images/Bugle_Sonic_1.png)
 
 Hmmm...Nothing too obvious here.  However, we do see some clean breaks in-between notes.  This could be an indicator that this may be morse code.  
 
