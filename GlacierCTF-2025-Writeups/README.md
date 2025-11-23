@@ -1,14 +1,15 @@
 # GlacierCTF 2025 - Repo Viewer Revenge Writeup
 
-![chal|512x397,20%](images/repo-viewer-revenge-chal.png)
+
+<img src="https://github.com/t4mpr/ctf-writeups/blob/main/GlacierCTF-2025-Writeups/images/repo-viewer-revenge-chal.png?raw=true" alt="Repo_Viewer_Revenge" width="50%"/>
 
 
-**Category:** Misc/Linux
-**Points:** TBD
-**Author:** GlacierCTF
-**Flag:** `gctf{Ru5t_m4k3s_3v3Ry7h1ng_5eCuR3_71a9f2ed8}`
 
-## Challenge Description
+
+
+
+
+## Description
 
 ```
 My trusty coreutils have failed me! Maybe rust can save the day?
@@ -183,6 +184,22 @@ gctf{Ru5t_m4k3s_3v3Ry7h1ng_5eCuR3_71a9f2ed8}
 Goodbye!
 ```
 
+**Flag:** `gctf{Ru5t_m4k3s_3v3Ry7h1ng_5eCuR3_71a9f2ed8}`
+
+## Files
+
+- **[exploit.py](files/exploit.py)** - Python script to generate the malicious tar.gz 
+- **[exploit.tar.gz](files/exploit.tar.gz)** - Pre-built exploit ready to send 
+
+
+## Tools Used
+
+- Claude-Code CLI - Sonnet 4.5 
+- Python 3 - Exploit generator
+- GNU tar - Testing and validation
+- base64 - Encoding for transmission
+- nc (netcat) - Network communication
+
 ## Key Takeaways
 
 1. **Memory Safety ≠ Logic Safety**: Rust prevents memory corruption but can't prevent logic bugs like desynchronization
@@ -221,15 +238,9 @@ The irony: "100% memory safe" Rust code still has critical security bugs when lo
 - [SecurityWeek Article](https://www.securityweek.com/tarmageddon-flaw-in-popular-rust-library-leads-to-rce/)
 - [The Hacker News Coverage](https://thehackernews.com/2025/10/tarmageddon-flaw-in-async-tar-rust.html)
 
-## Tools Used
+## Acknowledgements 
 
-- Python 3 - Exploit generator
-- GNU tar - Testing and validation
-- base64 - Encoding for transmission
-- nc (netcat) - Network communication
+Thank you to the **[GlacierCTF Team](https://discord.com/invite/XMubqKJZGS)** for putting on a great event and to my team **[LiL L3aK!](https://ctftime.org/team/373171/)**
 
-## Files
+**-t4mpr**
 
-- `exploit.py` - Python script to generate the malicious tar.gz
-- `exploit.tar.gz` - Pre-built exploit ready to send
-- `README.md` - This writeup
