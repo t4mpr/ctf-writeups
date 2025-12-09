@@ -29,6 +29,8 @@ Each write-up has its own folder that contains:
 
 ## 📝 Writeups
 
+- [🕵🏻‍♀️ WannaGame Champtionship 2025](WannaGame-Championship-2025-Writeups/hide_and_seek.md)
+*WannaGame Championship 2025 Writeups*  `  Forensics | Reversing | Volatility3 Framework  `
 -  [💀 deadfaceCTF 2025](deadfaceCTF-2025-Writeups/README.md)  
   *deadfaceCTF 2025 Writeups*  `  CRYPTO | WEB | SQL | LINUX | STEG | OSINT  `
 
