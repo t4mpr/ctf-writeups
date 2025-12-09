@@ -232,7 +232,7 @@ Start-Process -FilePath $env:TEMP\file\verify.exe
 3. Identified that y.ps1 was downloaded and saved update.zip as kqwer.zip
 
 
-![script-zip](images/hide_and_seek_question4.png)
+![script-zip](images/hide_and_seek_question_4.png)
 **Answer:** `http://192.168.1.11:7331/y.ps1_kqwer.zip`
 
 **Analysis:** The script downloads from one URL `(y.ps1)` but saves the subsequent download `(update.zip)` with a different name `(kqwer.zip)` to evade detection.
