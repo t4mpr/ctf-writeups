@@ -2,7 +2,7 @@
 
 ## Forensics
 ### Hide and Seek
-![Challenge Description](images/hide_and_seek_chal.png)
+![Challenge Description](images/hide_and_seek_chal_1.png)
 
 
 
