@@ -178,9 +178,9 @@ Metadata             NotificationHandler
 <img src="images/wpndatabase.db_3.png" alt="wpndatabase.db" style="width:500px;"/>
 
 
-
 **Or in WSL Ubuntu terminal**
-<img src="images/Victim_name.png" alt="zero hour" style="width:300px;"/>
+---
+<img src="images/Victim_name.png" alt="zero hour" style="width:600px;"/>
 
 
 **VICTIM NAME FOUND: `Purdue Pete`**
