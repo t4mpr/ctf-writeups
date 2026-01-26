@@ -180,7 +180,7 @@ Metadata             NotificationHandler
 
 
 **Or in WSL Ubuntu terminal**
-<img src="images/Victim_Name.png" alt="Victim Name" style="width:800px;"/>
+<img src="(images/Victim_Name.png](https://github.com/t4mpr/ctf-writeups/blob/main/0xL4ughCTF=2026-Writeup/images/Victim_name.png?raw=true)" alt="Victim Name" style="width:800px;"/>
 
 
 **VICTIM NAME FOUND: `Purdue Pete`**
