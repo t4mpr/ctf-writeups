@@ -76,7 +76,7 @@ ls -la "/mnt/c/ctf/_0xL4ugh/forensics/Zero_Hour/C___NONAME [NTFS]/[root]/Users/t
 -rwxrwxrwx 1 t4mpr t4mpr 1032 Dec 15 13:33 Telegram.lnk
 ```
 
-**Key Finding:** User has Discord, Telegram, and a suspicious "Ghost Toolbox" (likely ransomware toolkit)
+**Key Finding:** User has Discord, Telegram.
 
 ### Step 2: Examine Browser History
 
