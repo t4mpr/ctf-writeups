@@ -30,7 +30,7 @@ Each write-up has its own folder that contains:
 ## 📝 Writeups
 
 0xL4ughCTF=2026-Writeup
-- [🚨 0xL4ugh CTF 2026 ](WannaGame-Championship-2025-Writeups/hide_and_seek.md)
+- [🚨 0xL4ugh CTF 2026 ](0xL4ughCTF=2026-Writeup/README.md)
  ***Zero Hour** Forensics Writeup*  ` Windows Forensics `
 - [🕵🏻‍♀️ WannaGame Champtionship 2025](WannaGame-Championship-2025-Writeups/hide_and_seek.md)
 *WannaGame Championship 2025 Writeups*  `  Forensics | Reversing | Volatility3 Framework  `
@@ -83,6 +83,7 @@ If you have any questions, feel free to reach out!
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/smosillo)
 [![Discord](https://img.shields.io/badge/Discord-t4mpr%230-blue?logo=discord&style=for-the-badge)](https://discordapp.com/users/780642255508865044)
+
 
 
 
